@@ -26,6 +26,13 @@ public class User {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	public User(int empId, String empName, String empEmail) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.empEmail = empEmail;
+	}
 	@Override
 	public String toString() {
 		return "User [empId=" + empId + ", empName=" + empName + ", empEmail=" + empEmail + "]";
